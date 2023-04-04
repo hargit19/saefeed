@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            position: relative;
+            top: 12px;
+            left: 36px;
+            color: white;
+        }
+        .feed{
+            height: 650px;
+            width: 1292px;
+            background: url('grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        nav{
+            height: fit-content;
+   
+    position: relative;
+    left: 526px;
+    top: 19px;}
+        li{    list-style: none;
+    margin-left: 48px;
+    float: left;
+    font-size: 22px;
+color: white;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    height: 485px;
+    width: 425px;
+    border: 5px solid white;
+    border-radius: 5px;
+    top: 78px;
+    left: 89px;
+    position: relative;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+.container ul li{
+    color: white;
+    margin-top: 24px;
+}
+h2{
+    color: white;
+    margin-bottom: 33px;
+}
+input[type="submit"]{
+    height: 33px;
+    width: 103px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 12px;
+    position: relative;
+    top: 20px;
+}
+#lifeed{
+    margin-bottom: 10px;
+}
+a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body><div class="feed">
+    <header>
+        <h1>Cafe TeaGather</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/home.html" target="_blank">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/menu.html" target="_blank">Browse Our Menu</a></li>
+                <li><a href="http://127.0.0.1:5500/saefeed.html" target="_blank">Feeback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+<h2>Leave Us with your feedback</h2>
+<ul>
+<li>Name <input type="text"></li>
+<li>Contact Number <input type="text"></li>
+<li><p id="lifeed">Feedback </p><textarea rows="10" cols="23" placeholder="Leave Your Feedback Here"></textarea></li>
+</ul>
+<input type="submit"></input>
+ </div>
+</div>
+</body>
+</html>
